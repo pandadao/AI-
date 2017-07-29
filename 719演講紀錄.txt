@@ -1,0 +1,34 @@
+On Mining Big Data: A Fusion Perspective
+Prof. Philip Yu
+	廣度學習
+	big data 4V
+	sub grapph: 將藥物的化學式做切割,以部分原子組合為統計單位,判別出哪些組合對那些病有關連
+	將基因等特性加入,結合sub graph來製造出meta path, ex. chemical compond1 和chemical compound 3之間的關係是如何行走
+	"multi-label drug target prediction"
+    社交網路:
+	誰和誰是朋友(分類一)
+	人和地點(分類二)
+	活動頻類(分類三)
+	content tweets(分類四)
+	不同社交網路有相同ID->判斷為同人(anchor users)/(non-anchor user)
+	*預測誰會和誰做朋友->透過異質網路來判別同字或同位置同時間等因素判定是否會成為朋友關係
+		meta path建立後產生權重,若同電影參看人中有相同權重,便有可能變為朋友
+	有時候twitter沒有公布地點,如何從他的字詞間推定出來(透過異質網路的社交平台data推斷出地點)
+	極限:數據取得方式以及數據有效性的判斷
+	big data 的可信度問題是大數據未來的關鍵
+
+Why Deep Learning Networks Work So Well
+Prof. Jay Kuo
+	培養超過146位博士生
+	帶過26位博後
+	
+	*focus on one particular type comonly used for pattern
+	CNN vs RNN vs DNN the difference
+	artificial neuron model(M-P model)
+		"All-or-none" characteristics (logic unit)
+	sigmoid vs ReLU vs Leaky LU
+	
+	深度學習簡單概念網站: https://kknews.cc/news/4m6gelq.html
+	
+	進layer前不允許出現negtive label,以免造成黑貓白貓變成同一隻貓的問題
+	
